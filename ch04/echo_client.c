@@ -6,7 +6,7 @@
 #include<sys/socket.h>
 
 #define BUF_SIZE 1024
-//错误处理
+//错误处理函数
 void error_handling(char *message)
 {
     fputs(message, stderr);
